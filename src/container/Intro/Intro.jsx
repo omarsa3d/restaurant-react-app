@@ -1,7 +1,9 @@
 import React, { useRef, useState } from 'react';
 import { BsFillPlayFill, BsPauseFill } from 'react-icons/bs'
-import meal from '../../constants'
+// import meal from '../../constants'
+import meal from '../../assets/meal.mp4';
 import './Intro.css';
+
 
 const Intro = () => {
   const vidRef = useRef()
